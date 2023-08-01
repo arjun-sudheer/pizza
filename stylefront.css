@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #a08071;
+    color: #452020;
+    text-align: center;
+    padding: 1rem;
+    
+}
+nav {
+    background-color: #222;
+    color: #ef3232;
+    text-align: center;
+    padding: 0.5rem;
+}
+nav a {
+    color: #cbc1c1;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+h2 {
+
+    font-family: 'Handjet', cursive;
+    font-size: 2cm;
+}
+.pizzaname{
+    font-family: 'Handjet', cursive;
+    font-size: 3em ;
+}
+section {
+    padding: 2rem;
+    text-align: center;
+}
+.pizzaimg {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(81, 21, 21, 0.2);
+    margin-bottom: 1rem;
+}
+.pizzaname {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+.pizzadesc {
+    font-size: 1.1rem;
+
+}
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+main {
+    background-image: url('./noisy-background.jpg');
+    height: 350vh;
+    display: block;
+
+}
+
+

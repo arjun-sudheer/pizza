@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+}
+
+header {
+    background-color: #e1dbdb;
+    color: #121111;
+    padding: 1rem;
+    text-align: center;
+    font-family: 'Borel', cursive;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Fredericka the Great', cursive;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('./pizza-3010062.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.order-section {
+    background-color: rgba(168, 166, 166, 0.8);
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+form#order-form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-field label {
+    margin-bottom: 0.5rem;
+}
+
+.pizzaimages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.pizzaimage img {
+    width: 150px;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button[type="submit"] {
+    background-color: #ef3232;
+    color: #fff;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+}
